@@ -19,6 +19,7 @@ module.exports = {
         "no-undef": "off",
         "indent": "off",
         "max-len": "off",
-        "eol-last": "off"
+        "eol-last": "off",
+        "css-mediaqueryexpected": "off"
     }
 };
