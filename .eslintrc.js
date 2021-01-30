@@ -1,13 +1,11 @@
 module.exports = {
     "env": {
         "browser": true,
+        "node": true,
         "es2021": true
     },
     "extends": ["eslint:recommended", "google"],
-    "parserOptions": {
-        "ecmaVersion": 12,
-        "sourceType": "module"
-    },
+    "parser": "babel-eslint",
     "rules": {
         "semi": "off",
         "arrow-parens": "off",
@@ -20,6 +18,11 @@ module.exports = {
         "indent": "off",
         "max-len": "off",
         "eol-last": "off",
-        "css-mediaqueryexpected": "off"
+        "css-mediaqueryexpected": "off",
+        "no-trailing-spaces": "off",
+        "constructor-super": "off",
+        "no-this-before-super": "off",
+        "operator-linebreak": "off",
+        "no-debugger": "off"
     }
 };
