@@ -34,6 +34,6 @@ export function resizeHandler(event, $root) {
             $parent.css({ height: value + 'px' })
         }
 
-        $resizer.css({ opacity: 0, botttom: 0, right: 0 })
+        $resizer.css({ opacity: 0, bottom: 0, right: 0 })
     }
 }

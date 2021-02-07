@@ -23,6 +23,7 @@ module.exports = {
         "constructor-super": "off",
         "no-this-before-super": "off",
         "operator-linebreak": "off",
-        "no-debugger": "off"
+        "no-debugger": "off",
+        "space-before-function-paren": "off"
     }
 };
